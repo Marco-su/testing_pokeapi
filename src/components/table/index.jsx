@@ -1,3 +1,4 @@
+import "./styles.css";
 import { useState, useEffect } from "react";
 import { getPokes } from "../../helpers/getPokes";
 import TableRow from "../tableRow";
@@ -19,7 +20,7 @@ const Table = () => {
 
   // Render
   return (
-    <table>
+    <table id="myTable">
       <thead>
         <tr>
           <th>Name</th>
